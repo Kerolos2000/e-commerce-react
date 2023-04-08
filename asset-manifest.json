@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/e-commerce-react/static/css/main.1b21f1f5.css",
+    "main.js": "/e-commerce-react/static/js/main.7592f04d.js",
+    "static/media/light-patten.svg": "/e-commerce-react/static/media/light-patten.ed706aff39a009de4e80.svg",
+    "static/media/fa-solid-900.ttf": "/e-commerce-react/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/slider-image-1.jpeg": "/e-commerce-react/static/media/slider-image-1.3c3940ee0f1c3b17ff9a.jpeg",
+    "static/media/2.png": "/e-commerce-react/static/media/2.9c5c90b028d6755d9efd.png",
+    "static/media/1.png": "/e-commerce-react/static/media/1.9d04b32ab3afa179eee0.png",
+    "static/media/fa-brands-400.ttf": "/e-commerce-react/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/slider-image-3.jpeg": "/e-commerce-react/static/media/slider-image-3.7e5c9f7a513f6db6dd5e.jpeg",
+    "static/media/slider-image-2.jpeg": "/e-commerce-react/static/media/slider-image-2.e510b0de8a4d96a1d5ad.jpeg",
+    "static/media/fa-solid-900.woff2": "/e-commerce-react/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/error.svg": "/e-commerce-react/static/media/error.084f5f5b0eb10d3216cb7c939108e1f6.svg",
+    "static/media/fa-brands-400.woff2": "/e-commerce-react/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/PayPal.png": "/e-commerce-react/static/media/PayPal.2fbb826ff5e429726092.png",
+    "static/media/fa-regular-400.ttf": "/e-commerce-react/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/appStore.png": "/e-commerce-react/static/media/appStore.69cfe4f22d7a062caf51.png",
+    "static/media/Mastercard.png": "/e-commerce-react/static/media/Mastercard.03949330f44397b50c70.png",
+    "static/media/amazonPay.png": "/e-commerce-react/static/media/amazonPay.762febabfd33d26622a7.png",
+    "static/media/googleStore.png": "/e-commerce-react/static/media/googleStore.4df01025af3d051c8726.png",
+    "static/media/fa-regular-400.woff2": "/e-commerce-react/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/americanExpress.png": "/e-commerce-react/static/media/americanExpress.72c73823cfb10924b14a.png",
+    "static/media/freshcart-logo.svg": "/e-commerce-react/static/media/freshcart-logo.53f7a424c3aedc30a0fb46dc2278137c.svg",
+    "static/media/fa-v4compatibility.ttf": "/e-commerce-react/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/e-commerce-react/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "static/media/slick.svg": "/e-commerce-react/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/e-commerce-react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/e-commerce-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/e-commerce-react/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/e-commerce-react/index.html",
+    "main.1b21f1f5.css.map": "/e-commerce-react/static/css/main.1b21f1f5.css.map",
+    "main.7592f04d.js.map": "/e-commerce-react/static/js/main.7592f04d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b21f1f5.css",
+    "static/js/main.7592f04d.js"
+  ]
+}
