@@ -1,25 +1,25 @@
-import { createBrowserRouter, Navigate, RouterProvider, useNavigate } from "react-router-dom";
-import Layout from "./components/Layout/Layout.jsx";
-import Home from "./components/Home/Home.jsx";
-import Cart from "./components/Cart/Cart.jsx";
-import Products from "./components/Products/Products.jsx";
-import Brands from "./components/Brands/Brands.jsx";
-import Login from "./components/Login/Login.jsx";
-import Register from "./components/Rrgister/Rrgister.jsx";
-import Forgotpassword from "./components/Forgotpassword/Forgotpassword.jsx";
-import Resetpassword from "./components/Resetpassword/Resetpassword.jsx";
-import Updatepassword from "./components/Updatepassword/Updatepassword.jsx";
-import NotFound from "./components/NotFound/NotFound.jsx";
-import BrandsLayout from "./components/BrandsLayout/BrandsLayout.jsx";
-import ProductDetails from "./components/ProductDetails/ProductDetails.jsx";
+import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom";
 import BrandDetails from "./components/BrandDetails/BrandDetails.jsx";
-import Wishlist from "./components/Wishlist/Wishlist.jsx";
+import Brands from "./components/Brands/Brands.jsx";
+import BrandsLayout from "./components/BrandsLayout/BrandsLayout.jsx";
+import Cart from "./components/Cart/Cart.jsx";
 import EditProfileDataLayout from "./components/EditProfileDataLayout/EditProfileDataLayout.jsx";
+import EditProfileDataPassword from "./components/EditProfileDataPassword/EditProfileDataPassword.jsx";
 import EditProfileDataShipments from "./components/EditProfileDataShipments/EditProfileDataShipments.jsx";
-import EditProfileDataPassword from "./components/EditProfileDataPassword/EditProfileDataPassword.jsx"
+import Forgotpassword from "./components/Forgotpassword/Forgotpassword.jsx";
+import Home from "./components/Home/Home.jsx";
+import Layout from "./components/Layout/Layout.jsx";
+import Login from "./components/Login/Login.jsx";
+import NotFound from "./components/NotFound/NotFound.jsx";
+import ProductDetails from "./components/ProductDetails/ProductDetails.jsx";
+import Products from "./components/Products/Products.jsx";
+import Resetpassword from "./components/Resetpassword/Resetpassword.jsx";
+import Register from "./components/Rrgister/Rrgister.jsx";
+import Updatepassword from "./components/Updatepassword/Updatepassword.jsx";
+import Wishlist from "./components/Wishlist/Wishlist.jsx";
 
-import { useEffect, useState } from "react";
 import jwtDecode from "jwt-decode";
+import { useEffect, useState } from "react";
 
 
 function App() {
@@ -66,7 +66,7 @@ function App() {
 
   let routes = createBrowserRouter([
     {
-      path: "e-commerce-react",
+      path: "/",
       element: <Layout setUserData={setUserData} userData={userData}/>,
       children: [
         { index: true, element: <Home /> },

@@ -8,7 +8,7 @@ export default function Navbar({ userData, setUserData }) {
 
   function logout() {
     localStorage.removeItem("userToken");
-    navigate("/e-commerce-react/login");
+    navigate("/login");
     setUserData(null);
   }
 
@@ -37,7 +37,7 @@ export default function Navbar({ userData, setUserData }) {
                   <NavLink
                     className={`${style.navLink} nav-link`}
                     aria-current="page"
-                    to="/e-commerce-react"
+                    to="/"
                   >
                     Home
                   </NavLink>
@@ -45,7 +45,7 @@ export default function Navbar({ userData, setUserData }) {
                 <li className="nav-item">
                   <NavLink
                     className={`${style.navLink} nav-link`}
-                    to="/e-commerce-react/Products"
+                    to="/Products"
                   >
                     Products
                   </NavLink>
@@ -53,7 +53,7 @@ export default function Navbar({ userData, setUserData }) {
                 <li className="nav-item">
                   <NavLink
                     className={`${style.navLink} nav-link`}
-                    to="/e-commerce-react/brands"
+                    to="/brands"
                   >
                     Brands
                   </NavLink>
@@ -61,7 +61,7 @@ export default function Navbar({ userData, setUserData }) {
                 <li className="nav-item">
                   <NavLink
                     className={`${style.navLink} nav-link`}
-                    to="/e-commerce-react/cart"
+                    to="/cart"
                   >
                     Cart
                   </NavLink>
@@ -70,7 +70,7 @@ export default function Navbar({ userData, setUserData }) {
                 <li className="nav-item">
                   <NavLink
                     className={`${style.navLink} nav-link`}
-                    to="/e-commerce-react/wishlist"
+                    to="/wishlist"
                   >
                     Wishlist
                   </NavLink>
@@ -116,7 +116,7 @@ export default function Navbar({ userData, setUserData }) {
                     <ul className="dropdown-menu" aria-labelledby="Dropdown">
                       <li>
                         <Link
-                          to="/e-commerce-react/editData"
+                          to="/editData"
                           className="dropdown-item fw-bold h5"
                         >
                           {userData.name}
@@ -142,7 +142,7 @@ export default function Navbar({ userData, setUserData }) {
                       <Link
                         className={`${style.navLink}`}
                         aria-current="page"
-                        to="/e-commerce-react/login"
+                        to="/login"
                       >
                         Login
                       </Link>
@@ -151,7 +151,7 @@ export default function Navbar({ userData, setUserData }) {
                       <Link
                         className={`${style.navLink}`}
                         aria-current="page"
-                        to="/e-commerce-react/register"
+                        to="/register"
                       >
                         Register
                       </Link>

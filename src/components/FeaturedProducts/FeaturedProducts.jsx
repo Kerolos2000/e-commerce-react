@@ -1,11 +1,11 @@
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
-import useAxios from "../../Hooks/useAxios";
-import Loader from "../Loader/Loader";
-import style from "./FeaturedProducts.module.css";
-import useNotify from "../../Hooks/useNotify";
 import { toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import useAxios from "../../Hooks/useAxios";
+import useNotify from "../../Hooks/useNotify";
+import Loader from "../Loader/Loader";
+import style from "./FeaturedProducts.module.css";
 
 export default function FeaturedProducts(props) {
   let { ToastContainer, notify } = useNotify();
@@ -13,7 +13,7 @@ export default function FeaturedProducts(props) {
   let navigate = useNavigate();
   function sendToWishlist(i) {
     if (localStorage.getItem("userToken") === null) {
-      navigate("/e-commerce-react/login");
+      navigate("/login");
     } else {
       addToWishlist(i);
     }
@@ -63,7 +63,7 @@ export default function FeaturedProducts(props) {
                 >
                   <i className="fa-regular fa-heart fa-2x"></i>
                 </div>
-                <Link to={`/e-commerce-react/productDetails/${el._id}`}>
+                <Link to={`//productDetails/${el._id}`}>
                   <img className="img-fluid" src={el.imageCover} alt=""></img>
                   <p className={`${style.categoryName} m-0`}>
                     {el.category.name}

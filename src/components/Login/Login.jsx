@@ -22,7 +22,7 @@ export default function Login({ saveUserData, userData }) {
           localStorage.setItem("userName", res.data.user.name);
           saveUserData();
           setIslaoding(false);
-          navigate("/e-commerce-react");
+          navigate("/");
         }
       })
       .catch((error) => {
@@ -135,7 +135,7 @@ export default function Login({ saveUserData, userData }) {
               <MainBtn theam={"main-btn"} text={"Login"} type={"submit"} />
             )}
           </div>
-          <Link to="/e-commerce-react/forgot">Forgot Your Password ?</Link>
+          <Link to="/forgot">Forgot Your Password ?</Link>
         </form>
       </section>
     </>

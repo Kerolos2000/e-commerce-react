@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import useAxios from "../../Hooks/useAxios";
@@ -5,7 +6,6 @@ import useNotify from "../../Hooks/useNotify";
 import Loader from "../Loader/Loader";
 import MainBtn from "../MainBtn/MainBtn";
 import Slider from "../Slider/Slider";
-import axios from "axios";
 
 export default function ProductDetails({ userData }) {
   let { ToastContainer, notify } = useNotify();
@@ -17,7 +17,7 @@ export default function ProductDetails({ userData }) {
   let navigate = useNavigate();
   function addToCart() {
     if (userData === null) {
-      navigate("/e-commerce-react/login");
+      navigate("/login");
     } else {
       sendToCart();
     }
