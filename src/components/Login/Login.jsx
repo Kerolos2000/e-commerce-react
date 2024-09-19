@@ -1,8 +1,8 @@
-import { Formik, useFormik } from "formik";
-import * as Yup from "yup";
-import React, { useRef, useState } from "react";
 import axios from "axios";
+import { useFormik } from "formik";
+import React, { useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import * as Yup from "yup";
 import MainBtn from "../MainBtn/MainBtn";
 
 export default function Login({ saveUserData, userData }) {
@@ -66,6 +66,7 @@ export default function Login({ saveUserData, userData }) {
     <>
       <section className="py-3" id="Register">
         <h2>Login Now :</h2>
+        <span>(test.test123@test.com / Test123)</span>
         {error ? <div className="alert h5 fw-bold">{error}</div> : null}
         <form onSubmit={formik.handleSubmit} className="form">
           <div className="mb-2">
